@@ -1,19 +1,18 @@
 # 章节索引
 
-> 本仓库按 Andrew Ng《Agentic AI》课程的 5 个 Module 拆分成 5 章。
-> 每章独立一个目录，按统一模板打磨后定稿推送。
+> 本仓库按 Andrew Ng《Agentic AI》课程的模块拆章，每章独立目录，按统一模板打磨后定稿推送。
 
 ---
 
 ## 📑 目录
 
-| # | Module | 主题 | 状态 | 链接 |
-|---|---|---|---|---|
-| 1 | Module 1 | 反思模式 Reflection | 🔄 整理中 | [前往](./module-01-reflection/) |
-| 2 | Module 2 | 工具使用 Tool Use | 📅 待开始 | -- |
-| 3 | Module 3 | 规划 Planning | 📅 待开始 | -- |
-| 4 | Module 4 | 多智能体 Multi-Agent | 📅 待开始 | -- |
-| 5 | Module 5 | 综合实战 Capstone | 📅 待开始 | -- |
+| # | Module | 主题 | 状态 |
+|---|---|---|---|
+| 1 | Module 1 | Introduction to Agentic Workflows：多步骤工作流与四种模式总览 | ✅ 已完稿 |
+| 2 | Module 2 | Reflection（反思）：生成—检查—修订的质量闭环 | 📅 待开始 |
+| 3 | Module 3 | Tool Use（工具使用）：连接数据、计算与业务系统 | 📅 待开始 |
+| 4 | Module 4 | Planning（规划）：安排步骤并根据反馈调整 | 📅 待开始 |
+| 5 | Module 5 | Multi-Agent（多智能体）：分配职责与协作 | 📅 待开始 |
 
 ---
 
@@ -23,8 +22,18 @@
 
 1. **核心概念**（英文术语 + 中文译名 + 一句话定义）
 2. **底层逻辑**（为什么需要 / 三层结构 / 终止条件）
-3. **架构示意**（Mermaid 流程图）
+3. **架构示意**（Mermaid 流程图，GitHub 原生渲染）
 4. **HCI / UX 落点**（用户怎么看见 + 怎么建立信任）
-5. **代码示例**（Python + LiteLLM，最小可运行）
-6. **我的实战映射**（脱敏业务案例）
-7. **面试能讲版本**（一句话 / 三句话 / 完整 STAR）
+5. **代码示例**（Python + LiteLLM，可运行）
+6. **场景实例**（跨行业脱敏案例）
+7. **本章小结**（提炼 3–4 条判断）
+
+---
+
+## 📌 约定
+
+- **语言**：中文主版，通用技术术语后附英文（如：反思模式 Reflection）
+- **图表**：Mermaid 内联代码块，GitHub 原生渲染，无需额外配置
+- **代码**：Python + LiteLLM，模型分层参考 Anthropic 5 系（Fable / Opus / Sonnet / Haiku）
+- **数据**：所有量化数据必须标注出处，benchmark 需注明基准名称与测试条件
+- **禁用**：客户真实名称、合同金额、可识别的商业信息

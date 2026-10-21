@@ -1,0 +1,38 @@
+flowchart TB
+    U["用户目标与业务约束"] --> ENTRY["任务入口：身份、权限、输入检查"]
+    ENTRY --> ROUTE{"任务路径是否明确？"}
+
+    ROUTE -->|"明确"| WF["固定工作流"]
+    ROUTE -->|"需要探索"| AG["Agent：规划与动态决策"]
+
+    WF --> STEP["模型节点 / 规则节点"]
+    AG --> REQ["生成工具调用请求"]
+    STEP --> REQ
+
+    REQ --> POLICY["运行时校验：参数、权限、预算、风险"]
+    POLICY --> READ["已授权的只读操作"]
+    POLICY --> APPROVAL{"是否需要审批？"}
+
+    APPROVAL -->|"需要"| HUMAN["展示目标对象与完整参数"]
+    HUMAN -->|"批准"| WRITE["执行写操作"]
+    HUMAN -->|"拒绝"| PAUSE["暂停或修改任务"]
+    APPROVAL -->|"无需逐次审批且已授权"| WRITE
+
+    READ --> OBS["工具结果与执行状态"]
+    WRITE --> OBS
+    OBS --> CHECK{"满足验收条件？"}
+
+    CHECK -->|"否，允许继续"| AG
+    CHECK -->|"需要修改交付物"| REVIEW["可选：审核与修订"]
+    REVIEW --> CHECK
+    CHECK -->|"是"| OUT["交付物与实际业务结果"]
+
+    TRACE["全链路记录：状态、工具调用、证据、成本"] -.-> WF
+    TRACE -.-> AG
+    TRACE -.-> POLICY
+    TRACE -.-> OBS
+
+    OUT --> EVAL["离线评测与线上监测"]
+    TRACE --> EVAL
+    EVAL --> DATA["失败候选：脱敏、复现、标注"]
+    DATA --> REG["回归测试与发布门禁"]

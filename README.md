@@ -36,11 +36,11 @@ Andrew Ng 在 2026.8 这版课程里，把 Agentic AI 抽象成 **4 大设计模
 
 | Module | 主题 | 状态 |
 |---|---|---|
-| **Module 1** | 反思模式 Reflection —— 让 AI 自己检查作业 | 🔄 整理中 |
-| **Module 2** | 工具使用 Tool Use —— 让 AI 联通真实世界 | 📅 待开始 |
-| **Module 3** | 规划 Planning —— 让 AI 自己拆解大目标 | 📅 待开始 |
-| **Module 4** | 多智能体 Multi-Agent —— 让 AI 之间协作 | 📅 待开始 |
-| **Module 5** | 综合实战 —— 端到端 Agent 应用构建 | 📅 待开始 |
+| **Module 1** | Introduction to Agentic Workflows —— 多步骤工作流与四种模式总览 | ✅ 已完稿 |
+| **Module 2** | 反思模式 Reflection —— 让 AI 自己检查作业 | 📅 待开始 |
+| **Module 3** | 工具使用 Tool Use —— 让 AI 联通真实世界 | 📅 待开始 |
+| **Module 4** | 规划 Planning —— 让 AI 自己拆解大目标 | 📅 待开始 |
+| **Module 5** | 多智能体 Multi-Agent —— 让 AI 之间协作 | 📅 待开始 |
 
 完整课程大纲见 [docs/ROADMAP.md](./docs/ROADMAP.md)。
 
@@ -57,13 +57,14 @@ Andrew Ng 在 2026.8 这版课程里，把 Agentic AI 抽象成 **4 大设计模
 │   └── ROADMAP.md                     # 5 章完整目录大纲
 ├── chapters/
 │   ├── README.md                      # 章节索引
-│   ├── module-01-reflection/          # Module 1 工作目录
-│   │   ├── README.md                  # 当前进度占位
-│   │   └── notes/                     # 原始看课笔记
-│   ├── module-02-tool-use/            # 待创建
-│   ├── module-03-planning/            # 待创建
-│   ├── module-04-multi-agent/         # 待创建
-│   └── module-05-capstone/            # 待创建
+│   ├── module-01-introduction/        # Module 1：Introduction to Agentic Workflows
+│   │   ├── README.md                  # 成稿
+│   │   ├── README-index.md            # 速查索引
+│   │   └── notes/                     # 后续模块素材草稿
+│   ├── module-02-reflection/          # Module 2：Reflection（反思）
+│   ├── module-03-tool-use/            # Module 3：Tool Use（工具使用）
+│   ├── module-04-planning/            # Module 4：Planning（规划）
+│   └── module-05-multi-agent/         # Module 5：Multi-Agent（多智能体）
 └── assets/
     └── diagrams/                      # Mermaid 源文件 + 导出图
 ```
