@@ -1,21 +1,6 @@
 # Agentic AI × 人机交互 (HCI) 实践专栏
 
-> 基于吴恩达 (Andrew Ng) 2026.8 最新版《Agentic AI》课程的深度拆解。
-> 融合 2026 年 AWS Bedrock AgentCore、Google Cloud Vertex AI Agent Builder、Anthropic Claude 智能体接口设计等大厂工程实践。
-> 每一章都落到"Agent 执行该模式时，前端 UI 该怎么呈现、如何建立用户信任"。
-
----
-
-## 🎯 专栏定位
-
-| 维度 | 说明 |
-|---|---|
-| **目标读者** | AI 产品经理、解决方案架构师、Agent 工程师、前端体验设计师 |
-| **核心特色** | 设计模式 × 工程实践 × 人机交互 (HCI)，三者交叉 |
-| **语言策略** | 中文主版 + 英文术语括号 (例如：反思模式 Reflection) |
-| **图表** | Mermaid (GitHub 原生渲染) |
-| **代码** | Python + LiteLLM，最小可运行示例 |
-| **更新节奏** | 按 Module 推进，每完成一章提交一次 |
+> 基于吴恩达《Agentic AI》课程（2026.8）的深度拆解，面向 AI 产品经理、解决方案架构师、Agent 工程师与前端体验设计师。核心特色是「设计模式 × 工程实践 × 人机交互 (HCI)」三线交叉，中文主版并附英文术语括号（如：反思模式 Reflection）。
 
 ---
 
@@ -68,16 +53,6 @@ Andrew Ng 在 2026.8 这版课程里，把 Agentic AI 抽象成 **4 大设计模
 └── assets/
     └── diagrams/                      # Mermaid 源文件 + 导出图
 ```
-
----
-
-## ✍️ 作者与协作
-
-- **共同作者**：Caroline He（港，软通动力方案顾问 / 智慧城市 AI Agent FDE）
-- **AI Co-author**：WorkBuddy Agent
-- **协作方式**：每看完一个 Module，把原始笔记贴给 AI Co-author，
-  AI 整合课程原意 + 2026 大厂调研 + 实战映射，输出成稿；
-  人类 Review 后定稿，再 push。
 
 ---
 
