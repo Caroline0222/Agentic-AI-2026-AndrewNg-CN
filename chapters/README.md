@@ -9,7 +9,7 @@
 | # | Module | 主题 | 状态 |
 |---|---|---|---|
 | 1 | Module 1 | Introduction to Agentic Workflows：多步骤工作流与四种模式总览 | ✅ 已完稿 |
-| 2 | Module 2 | Reflection（反思）：生成—检查—修订的质量闭环 | 📅 待开始 |
+| 2 | Module 2 | Reflection（反思）：生成—检查—修订的质量闭环 | ✅ 已完稿 |
 | 3 | Module 3 | Tool Use（工具使用）：连接数据、计算与业务系统 | 📅 待开始 |
 | 4 | Module 4 | Planning（规划）：安排步骤并根据反馈调整 | 📅 待开始 |
 | 5 | Module 5 | Multi-Agent（多智能体）：分配职责与协作 | 📅 待开始 |
