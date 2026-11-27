@@ -1,79 +1,75 @@
-# Agentic AI 课程完整路线图
+# Agentic AI 课程路线图
 
-> Andrew Ng《Agentic AI》课程 5 大模块完整目录
-> 来源：<https://www.deeplearning.ai/courses/agentic-ai>
-> 时长：约 9h55m，共 31 节课
-> 最后更新：2026-08-31
-
----
-
-## Module 1: Introduction to Agentic Workflows（引言）
-
-> 核心：多步骤工作流、自主度、任务分解、评测与四种设计模式总览
-
-| # | 课程标题 | 时长 | 笔记状态 |
-|---|---|---|---|
-| 1 | What is agentic AI? | 5 min | ✅ |
-| 2 | Degrees of autonomy | 5 min | ✅ |
-| 3 | Benefits of agentic AI | 4 min | ✅ |
-| 4 | Agentic AI applications | 7 min | ✅ |
-| 5 | Task decomposition: Identifying the steps in a workflow | 8 min | ✅ |
-| 6 | Evaluating agentic AI (evals) | 5 min | ✅ |
-| 7 | Agentic design patterns | 7 min | ✅ |
-| 8 | Try the research agent（代码示例） | 1 h | 📅 |
+> Andrew Ng《Agentic AI》课程 5 大模块
+> 来源：https://www.deeplearning.ai/courses/agentic-ai
+> 最后更新：2026-11-27
 
 ---
 
-## Module 2: Reflection（反思）
+## Module 1: Introduction to Agentic Workflows
 
-> 核心：生成 → 检查 → 修订的质量闭环
+多步骤工作流、任务分解、自主度光谱、四种设计模式总览、Evals 入门、落地方法。
 
-| # | 课程标题 | 时长 | 笔记状态 |
-|---|---|---|---|
-| ... | ... | ... | 📅 |
-
----
-
-## Module 3: Tool Use（工具使用）
-
-> 核心：让 AI 联通真实世界
-
-| # | 课程标题 | 时长 | 笔记状态 |
-|---|---|---|---|
-| ... | ... | ... | 📅 |
+| # | 标题 | 笔记 |
+|---|---|---|
+| 1.1 | What is Agentic Workflow / Task Decomposition / Degrees of Autonomy | ✅ |
+| 1.2 | Design Patterns / Why It Matters / Engineering Practice | ✅ |
+| 1.3 | From Business to Workflow / Case Study | ✅ |
 
 ---
 
-## Module 4: Planning（规划）
+## Module 2: Reflection
 
-> 核心：让 AI 拆解大目标、根据反馈调整
+生成 → 检查 → 修订的质量闭环。
 
-| # | 课程标题 | 时长 | 笔记状态 |
-|---|---|---|---|
-| ... | ... | ... | 📅 |
-
----
-
-## Module 5: Multi-Agent Collaboration（多智能体）
-
-> 核心：让 AI 之间协作 / 分工
-
-| # | 课程标题 | 时长 | 笔记状态 |
-|---|---|---|---|
-| ... | ... | ... | 📅 |
+| # | 标题 | 笔记 |
+|---|---|---|
+| 2.1 | Understanding Reflection / Direct Generation vs Reflection | ✅ |
+| 2.2 | Organizing Reflection / Review Criteria and Model Assignment | ✅ |
+| 2.3 | External Feedback / Multimodal Chart Review | ✅ |
+| 2.4 | Evaluating Reflection / Stopping Conditions | ✅ |
+| 2.5 | Industry Practice | ✅ |
 
 ---
 
-## 协作约定
+## Module 3: Tool Use
 
-每章成稿结构统一：
+让 LLM 通过调用函数突破训练数据的限制。
 
-```
-1. 核心概念（英文术语 + 中文译名 + 一句话定义）
-2. 底层逻辑（为什么需要 / 三层结构 / 终止条件）
-3. 架构示意（Mermaid 流程图）
-4. HCI / UX 落点（用户怎么看见 + 怎么建立信任）
-5. 代码示例（Python + LiteLLM，最小可运行）
-6. 我的实战映射（跨行业脱敏案例）
-7. 面试能讲版本（一句话 / 三句话 / 完整 STAR）
-```
+| # | 标题 | 笔记 |
+|---|---|---|
+| 3.1 | What are tools | ✅ |
+| 3.2 | Creating a tool | ✅ |
+| 3.3 | Tool Use Syntax | ✅ |
+| 3.4 | Code Execution | ✅ |
+| 3.5 | MCP (Model Context Protocol) | ✅ |
+
+---
+
+## Module 4: Practical Tips for Building Agentic AI
+
+评估、错误分析、组件级评估、改进方法、成本延迟优化、开发流程。
+
+| # | 标题 | 笔记 |
+|---|---|---|
+| 4.1 | Evals | ✅ |
+| 4.2 | Error Analysis | ✅ |
+| 4.3 | More error analysis examples | ✅ |
+| 4.4 | Component-Level Evals | ✅ |
+| 4.5 | How to address problems | ✅ |
+| 4.6 | Latency, cost optimization | ✅ |
+| 4.7 | Development process summary | ✅ |
+
+---
+
+## Module 5: Patterns for Highly Autonomous Agents
+
+Planning 设计模式 + Multi-Agent 系统。
+
+| # | 标题 | 笔记 |
+|---|---|---|
+| 5.1 | Planning workflows | ✅ |
+| 5.2 | Creating and executing LLM plans | ✅ |
+| 5.3 | Planning with code execution | ✅ |
+| 5.4 | Multi-agentic workflows | ✅ |
+| 5.5 | Communication patterns | ✅ |
