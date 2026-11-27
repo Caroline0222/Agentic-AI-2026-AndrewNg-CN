@@ -1,39 +1,11 @@
 # 章节索引
 
-> 本仓库按 Andrew Ng《Agentic AI》课程的模块拆章，每章独立目录，按统一模板打磨后定稿推送。
+按 Andrew Ng《Agentic AI》课程模块组织，共 5 个 Module、25 篇笔记。每篇独立 .md 文件，格式统一。
 
----
-
-## 📑 目录
-
-| # | Module | 主题 | 状态 |
+| Module | 主题 | 篇数 | 概览 |
 |---|---|---|---|
-| 1 | Module 1 | Introduction to Agentic Workflows：多步骤工作流与四种模式总览 | ✅ 已完稿 |
-| 2 | Module 2 | Reflection（反思）：生成—检查—修订的质量闭环 | ✅ 已完稿 |
-| 3 | Module 3 | Tool Use（工具使用）：连接数据、计算与业务系统 | 📅 待开始 |
-| 4 | Module 4 | Planning（规划）：安排步骤并根据反馈调整 | 📅 待开始 |
-| 5 | Module 5 | Multi-Agent（多智能体）：分配职责与协作 | 📅 待开始 |
-
----
-
-## 📐 章节成稿模板
-
-每章按以下 7 段结构：
-
-1. **核心概念**（英文术语 + 中文译名 + 一句话定义）
-2. **底层逻辑**（为什么需要 / 三层结构 / 终止条件）
-3. **架构示意**（Mermaid 流程图，GitHub 原生渲染）
-4. **HCI / UX 落点**（用户怎么看见 + 怎么建立信任）
-5. **代码示例**（Python + LiteLLM，可运行）
-6. **场景实例**（跨行业脱敏案例）
-7. **本章小结**（提炼 3–4 条判断）
-
----
-
-## 📌 约定
-
-- **语言**：中文主版，通用技术术语后附英文（如：反思模式 Reflection）
-- **图表**：Mermaid 内联代码块，GitHub 原生渲染，无需额外配置
-- **代码**：Python + LiteLLM，模型分层参考 Anthropic 5 系（Fable / Opus / Sonnet / Haiku）
-- **数据**：所有量化数据必须标注出处，benchmark 需注明基准名称与测试条件
-- **禁用**：客户真实名称、合同金额、可识别的商业信息
+| [Module 1](./module-01-introduction/README.md) | Introduction to Agentic Workflows | 3 篇 | 多步骤工作流、任务分解、自主度、四种模式总览 |
+| [Module 2](./module-02-reflection/README.md) | Reflection（反思） | 5 篇 | 反思流程、检查标准、外部反馈、图表评审、评估与边界、国内实践 |
+| [Module 3](./module-03-tool-use/README.md) | Tool Use（工具使用） | 5 篇 | 工具定义、创建工具、调用语法、代码执行、MCP |
+| [Module 4](./module-04-practical-tips/README.md) | Practical Tips | 7 篇 | Evals、错误分析、组件级评估、改进方法、成本延迟优化、开发流程 |
+| [Module 5](./module-05-multi-agent/README.md) | Patterns for Highly Autonomous Agents | 5 篇 | Planning、结构化输出、代码行动、Multi-Agent、通信模式 |
