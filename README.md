@@ -25,26 +25,6 @@ Module 1 是总览，Module 4 是工程实践（评估 / 错误分析 / 组件�
 | Module 4 | Practical Tips | Evals 评估体系、错误分析、组件级评估、改进方法（提示词/换模型/任务分解/微调）、成本与延迟优化、开发流程闭环 | ✅ |
 | Module 5 | Patterns for Highly Autonomous Agents | Planning 设计模式、结构化输出、代码作为行动、Multi-Agent 系统、通信模式（线性/双层/多层/去中心） | ✅ |
 
-## 仓库结构
-
-```
-chapters/
-├── module-01-introduction/      3 篇（1.1–1.3）
-├── module-02-reflection/        5 篇（2.1–2.5）
-├── module-03-tool-use/          5 篇（3.1–3.5）
-├── module-04-practical-tips/    7 篇（4.1–4.7）
-└── module-05-multi-agent/       5 篇（5.1–5.5）
-```
-
-共 25 篇笔记，每篇独立 .md 文件。完整目录见 [chapters/README.md](./chapters/README.md)。
-
-## 约定
-
-- 语言：中文为主，关键术语附英文（如：反思模式 Reflection）
-- 图表：Mermaid 内联代码块，GitHub 原生渲染
-- 数据：量化数据标注出处，benchmark 注明基准名称与测试条件
-- 脱敏：客户名称、合同金额、可识别的商业信息一律打码
-
 ## License
 
 MIT
